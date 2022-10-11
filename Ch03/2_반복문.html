@@ -50,7 +50,13 @@
         }
 
         // 어두운 별삼각형
-      
+        for(let a = 10; a >= 1; a--){
+            for(let b = 1; b <= a; b++){
+                document.write('★');
+            }
+            document.write('<br/>');
+        }
+        
      </script>
 
      <h4>While</h4>
@@ -58,7 +64,7 @@
         //while
         let total = 0;
         let k = 1;
-
+        
         while(k <= 10) {
             
             if(k%2 == 0){
